@@ -20,7 +20,8 @@
       "cordova-plugin-fingerprint-aio": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
   "devDependencies": {

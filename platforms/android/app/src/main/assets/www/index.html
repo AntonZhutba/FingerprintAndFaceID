@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div>
+        <h1>Test Biometrics Security</h1>
+        <div id="deviceready" class="blink">
+            <p id="biometrics-status" style="text-align: center;" class="event received"></p>
+        </div>
+        <div class="app">
+            <div style="margin-top: 1em;">
+                <a class="btn-style" onclick="loginWithoutBiometrics()">
+                    <span class="btn-style-span">Loggin without biometrics security</span>
+                </a>
+            </div>
+            <div style="margin-top: 1em;">
+                <a class="btn-style" onclick="loginWithBiometrics()">
+                    <span class="btn-style-span">Loggin with biometrics security</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

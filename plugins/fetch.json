@@ -1,0 +1,12 @@
+{
+  "cordova-plugin-fingerprint-aio": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-fingerprint-aio@5.0.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "FACEID_USAGE_DESCRIPTION": "Login now...."
+    }
+  }
+}
